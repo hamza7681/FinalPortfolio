@@ -1,0 +1,76 @@
+.work{
+    color: rgb(49, 49, 49);
+    padding-bottom: 5px;
+    border-bottom : 5px solid rgb(49, 49, 49);
+    font-size: 28px;
+    font-weight: 700;
+   
+}
+
+.work_heading{
+    padding-top: 40px;
+}
+
+.main_work{
+    background-color: rgb(197, 169, 169);
+   
+}
+
+.work_main_div{
+    padding-top:60px;
+}
+
+.work_para{
+    padding-top: 40px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.work_list{
+    padding:0;
+    margin: 0;
+    list-style-image: url('../../Assets/bullet.png');
+    
+}
+
+.work_list>li{
+    font-size: 18px;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.Apps{
+    color: orangered;
+    font-weight: 700;
+}
+
+.work_link{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.work_link:hover{
+    color: black;
+}
+
+.web_pic{
+    width: 100%;
+    height: 200px;
+    transition: 0.5s all ease;
+    border-radius: 6px;
+}
+
+.web_pic:hover{
+    transform: scale(0.9);
+    transition: 0.5s all ease;
+}
+
+@media screen and (max-width:768px) {
+    .work{
+     
+        font-size: 22px !important;
+    }
+    .work_main_div{
+        padding-top: 30px !important;
+    }
+}

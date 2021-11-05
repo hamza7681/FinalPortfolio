@@ -1,0 +1,49 @@
+.intro_heading{
+    color: black;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.intro_para{
+    color:black;
+    text-align: justify;
+
+}
+.main_intro{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    perspective: 1000px;  
+	transform-style: preserve-3d;
+}
+
+.intro_string{
+    color: orangered;
+}
+
+.pic1{
+    width: 300px;
+    height: 300px;
+    transition: 0.5s all ease;
+    border:5px solid white;
+    border-radius: 50%;
+}
+
+.pic1:hover{
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+}
+
+
+
+@media screen and (max-width:768px){
+    .intro_heading{
+        margin-top: 1px !important;
+        font-size: 28px !important;
+        text-align: center !important;
+    }
+    .intro_para{
+        font-size: 18px !important;
+        text-align: center !important;
+    }
+   
+}
