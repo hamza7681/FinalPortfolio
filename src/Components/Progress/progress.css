@@ -1,6 +1,6 @@
 .main_div{
     background-color: rgb(238, 223, 223);
-    padding-bottom: 150px;
+    padding-bottom: 70px;
     padding-top: 25px;
   
    
@@ -65,7 +65,5 @@
     .progress_container{
         padding-top: 10px !important;
     }
-    .pic2{
-        display: none !important;
-    }
+   
 }

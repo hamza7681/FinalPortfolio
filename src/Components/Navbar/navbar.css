@@ -16,6 +16,7 @@
     transition: 0.5s all ease;
     padding-top: 15px;
     padding-bottom: 15px;
+    box-shadow: 0 8px 8px -3px rgb(104, 104, 104);
 }
 
 .navbar_brand{
@@ -80,15 +81,18 @@
 
 
 .navbar {
- background-color: rgb(32, 32, 32);
- width: fit-content;
+ 
+ 
  margin-left: auto;
  margin-right: auto;
- border-radius: 5px;
+
   }
 
   .menu{
-  color: white;
+  color: black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  font-weight: bold;
 
   }
 
@@ -203,12 +207,12 @@
         display: none;
     }
     .main_wrapper{
-        background-color: black;
+        background: transparent;
         padding-top: 10px;
         padding-bottom: 20px;
     }
     .navbar_brand{
-        color: white;
+        
         font-size: 21px;
     }
     .logo{
@@ -218,9 +222,5 @@
     .logo_wrapper{
         text-align: center;
     }
-    .new_navbar{
-        background-color: black !important;
-        padding-top: 10px !important;
-        padding-bottom: 20px !important
-    }
+   
 }

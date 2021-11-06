@@ -1,15 +1,18 @@
 import React, { useEffect } from "react";
 import ProgressData from "./ProgressData";
 import './progress.css'
-import pic2 from "../../Assets/pic2.png";
+// import pic2 from "../../Assets/pic2.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import video from '../../Assets/video.mp4'
 
 
 function ProgressMain() {
   useEffect(() => {
     Aos.init({ duration: 1500 });
   }, []);
+
+  
 
   return (
     <>
@@ -30,15 +33,21 @@ function ProgressMain() {
               <ProgressData />
             </div>
             <div className="col-md-6 text-center">
+
+            <video autoPlay muted className='pic2'>
+  <source src={video} type="video/mp4"/>
+  <source src={video} type="video/ogg"/>
+  Your browser does not support HTML video.
+</video>
               
-              
+{/*               
                 <img
                   src={pic2}
                   alt="Hamza Siddique"
                   
                  className='pic2'
                   data-aos="fade-left"
-                />
+                /> */}
              
             </div>
           </div>
