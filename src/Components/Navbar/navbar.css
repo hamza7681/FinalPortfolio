@@ -121,13 +121,13 @@
     display: flex;
     justify-content: center;
     position: fixed;
-    top: -100%;
-    left: 0;
+    top: 0%;
+    left: -100%;
     transition: 750ms;
   }
   
   .nav-menu.active {
-    top: 0;
+    left: 0;
     transition: 550ms;
     z-index: 999;
   }
