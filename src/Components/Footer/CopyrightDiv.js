@@ -6,7 +6,7 @@ function CopyrightDiv() {
   return (
     <>
       <div
-        className='container-fluid copyright_div text-center pt-3'
+        className='container-fluid copyright_div text-center pt-3 pb-3'
       >
         <p className='copyright_para'>
           Copyright © 2021 | Hamza Siddique - All Rights are Reserved
